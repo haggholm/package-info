@@ -1,0 +1,28 @@
+{
+  "name": "package-info",
+  "version": "1.0.0",
+  "description": "Retrieve information about loaded modules and packages",
+  "main": "package-info.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "package",
+    "module",
+    "info",
+	"metadata"
+  ],
+  "author": "Petter Häggholm <petter@petterhaggholm.net>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0"
+  },
+  "devDependencies": {
+    "lodash": "*",
+    "mocha": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:haggholm/package-info.git"
+  }
+}
